@@ -1,0 +1,240 @@
+[
+    {
+        "question": "How do I make a file upload not required in FastAPI?",
+        "type": "paraphrase",
+        "correct": [
+            "request-files-5"
+        ]
+    },
+    {
+        "question": "What does UploadFile mean in FastAPI?",
+        "type": "acronym_or_identifier",
+        "correct": [
+            "request-files-6"
+        ]
+    },
+    {
+        "question": "How can a client send more than one file in a single request?",
+        "type": "paraphrase",
+        "correct": [
+            "request-files-7"
+        ]
+    },
+    {
+        "question": "What types should I use to declare file uploads in FastAPI — File, bytes, or UploadFile?",
+        "type": "exact_term",
+        "correct": [
+            "request-files-8"
+        ]
+    },
+    {
+        "question": "What happens if I visit a FastAPI URL without specifying skip or limit in the query string?",
+        "type": "paraphrase",
+        "correct": [
+            "query-params-1"
+        ]
+    },
+    {
+        "question": "How do I make a query parameter optional in FastAPI?",
+        "type": "confusable",
+        "correct": [
+            "query-params-2"
+        ]
+    },
+    {
+        "question": "If I pass short=yes or short=on in the URL, how does FastAPI interpret it?",
+        "type": "exact_term",
+        "correct": [
+            "query-params-3"
+        ]
+    },
+    {
+        "question": "What error does FastAPI return if a required query parameter is missing from the request?",
+        "type": "conceptual",
+        "correct": [
+            "query-params-5"
+        ]
+    },
+    {
+        "question": "What package do I need to install to accept file uploads in FastAPI?",
+        "type": "exact_term",
+        "correct": [
+            "request-files-0"
+        ]
+    },
+    {
+        "question": "What's the difference between declaring a file parameter as bytes versus UploadFile?",
+        "type": "conceptual",
+        "correct": [
+            "request-files-2"
+        ]
+    },
+    {
+        "question": "Why would a developer declare a return type on a FastAPI endpoint function?",
+        "type": "conceptual",
+        "correct": [
+            "response-model-0"
+        ]
+    },
+    {
+        "question": "How do I return a dictionary from an endpoint but still have it documented and validated as a Pydantic model?",
+        "type": "paraphrase",
+        "correct": [
+            "response-model-1"
+        ]
+    },
+    {
+        "question": "Why is it risky to use the same Pydantic model for both the request input and response output of a user endpoint?",
+        "type": "conceptual",
+        "correct": [
+            "response-model-2"
+        ]
+    },
+    {
+        "question": "How can I stop FastAPI from sending a user's password back in the API response?",
+        "type": "confusable",
+        "correct": [
+            "response-model-3"
+        ]
+    },
+    {
+        "question": "What is response_model_exclude_unset used for?",
+        "type": "exact_term",
+        "correct": [
+            "response-model-7"
+        ]
+    },
+    {
+        "question": "What's the difference between File and Form parameters versus Body parameters in terms of how the request is encoded?",
+        "type": "confusable",
+        "correct": [
+            "request-forms-and-files-2"
+        ]
+    },
+    {
+        "question": "What do I need to install before I can accept form data in FastAPI?",
+        "type": "exact_term",
+        "correct": [
+            "request-forms-0"
+        ]
+    },
+    {
+        "question": "What HTTP status code range should I use for a successful response where there's nothing to send back?",
+        "type": "conceptual",
+        "correct": [
+            "response-status-code-1"
+        ]
+    },
+    {
+        "question": "What is fastapi.status used for?",
+        "type": "exact_term",
+        "correct": [
+            "response-status-code-2"
+        ]
+    },
+    {
+        "question": "How do I add sample values for a Pydantic model so they show up in the API docs?",
+        "type": "paraphrase",
+        "correct": [
+            "schema-extra-example-1"
+        ]
+    },
+    {
+        "question": "What does the openapi_examples parameter do?",
+        "type": "exact_term",
+        "correct": [
+            "schema-extra-example-3"
+        ]
+    },
+    {
+        "question": "What format does FastAPI use to let a browser receive a continuous stream of updates from the server using the native EventSource API?",
+        "type": "paraphrase",
+        "correct": [
+            "server-sent-events-1"
+        ]
+    },
+    {
+        "question": "What is ServerSentEvent used for in FastAPI?",
+        "type": "acronym_or_identifier",
+        "correct": [
+            "server-sent-events-3"
+        ]
+    },
+    {
+        "question": "How do I resume an SSE stream from where a client left off after a connection drops?",
+        "type": "conceptual",
+        "correct": [
+            "server-sent-events-5"
+        ]
+    },
+    {
+        "question": "What library does FastAPI recommend for working with SQL databases?",
+        "type": "exact_term",
+        "correct": [
+            "sql-databases-0"
+        ]
+    },
+    {
+        "question": "Why would I create separate HeroPublic and HeroCreate models instead of using one single Hero model for my API?",
+        "type": "conceptual",
+        "correct": [
+            "sql-databases-3"
+        ]
+    },
+    {
+        "question": "How do I serve a folder of static files like images or CSS from a FastAPI app?",
+        "type": "paraphrase",
+        "correct": [
+            "static-files-1"
+        ]
+    },
+    {
+        "question": "What's the difference between streaming JSON Lines and Server-Sent Events?",
+        "type": "confusable",
+        "correct": [
+            "stream-json-lines-2"
+        ]
+    },
+    {
+        "question": "What library does FastAPI use under the hood to make testing easy with pytest?",
+        "type": "paraphrase",
+        "correct": [
+            "testing-0"
+        ]
+    },
+    {
+        "question": "What is TestClient used for in FastAPI?",
+        "type": "acronym_or_identifier",
+        "correct": [
+            "testing-1"
+        ]
+    },
+    {
+        "question": "How do I send form data instead of JSON when writing a test for a FastAPI endpoint?",
+        "type": "paraphrase",
+        "correct": [
+            "testing-3"
+        ]
+    },
+    {
+        "question": "What makes something eligible to be used as a dependency in FastAPI?",
+        "type": "conceptual",
+        "correct": [
+            "dependencies-classes-as-dependencies-2"
+        ]
+    },
+    {
+        "question": "Why would I use a class instead of a function as a FastAPI dependency?",
+        "type": "paraphrase",
+        "correct": [
+            "dependencies-classes-as-dependencies-3"
+        ]
+    },
+    {
+        "question": "What happens when FastAPI calls a class-based dependency like CommonQueryParams?",
+        "type": "exact_term",
+        "correct": [
+            "dependencies-classes-as-dependencies-4"
+        ]
+    }
+]

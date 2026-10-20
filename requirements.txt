@@ -1,0 +1,6 @@
+sentence-transformers
+qdrant-client
+rank_bm25
+pandas
+numpy
+jupyter
