@@ -10,7 +10,7 @@
         "question": "What does UploadFile mean in FastAPI?",
         "type": "acronym_or_identifier",
         "correct": [
-            "request-files-6"
+            "request-files-3"
         ]
     },
     {
