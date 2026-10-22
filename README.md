@@ -5,12 +5,21 @@
 **Which retrieval method finds the right chunk?**
 Vector search, BM25, hybrid (RRF) and cross-encoder reranking, benchmarked on the FastAPI docs.
 
-![Python](https://img.shields.io/badge/Python-3.12-1F2937?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-1F2937?style=flat-square&logo=pytorch&logoColor=white)
-![Sentence Transformers](https://img.shields.io/badge/Sentence--Transformers-1F2937?style=flat-square)
-![rank_bm25](https://img.shields.io/badge/rank__bm25-1F2937?style=flat-square)
-![Pandas](https://img.shields.io/badge/Pandas-1F2937?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-1F2937?style=flat-square&logo=numpy&logoColor=white)
+<div align="center">
+
+# Chunk Hunt
+
+**Which retrieval method finds the right chunk?**
+Vector search, BM25, hybrid (RRF) and cross-encoder reranking, benchmarked on the FastAPI docs.
+
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Sentence--Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![BM25](https://img.shields.io/badge/rank__bm25-2E8B57?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-4DABCF?style=for-the-badge&logo=numpy&logoColor=white)
+
+</div>
 
 </div>
 
