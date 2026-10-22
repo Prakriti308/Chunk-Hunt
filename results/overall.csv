@@ -1,0 +1,5 @@
+method,hit5,mrr,avg_seconds
+vector,0.765,0.632,0.078
+bm25,0.824,0.657,0.003
+hybrid,0.853,0.652,0.081
+hybrid+rerank,0.735,0.567,31.635

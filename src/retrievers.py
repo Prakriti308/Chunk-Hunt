@@ -61,6 +61,21 @@ def hybrid_search(query: str, k: int = 10, pool: int = 50, rrf_k: int = 60):
             scores[cid] = scores.get(cid, 0) + 1 / (rrf_k + rank + 1)
     return sorted(scores, key=scores.get, reverse=True)[:k]
 
+from sentence_transformers import CrossEncoder
+
+print("Loading reranker...")
+reranker = CrossEncoder("BAAI/bge-reranker-base")
+
+
+def rerank_search(query: str, k: int = 10, pool: int = 30):
+    """Take top hybrid candidates, then re-score each (query, chunk) pair."""
+    candidates = hybrid_search(query, k=pool)
+    id_to_text = dict(zip(chunk_ids, chunk_texts))
+    pairs = [(query, id_to_text[cid]) for cid in candidates]
+    scores = reranker.predict(pairs)
+    order = np.argsort(-scores)
+    return [candidates[i] for i in order][:k]
+
 
 # ---------- Quick manual test ----------
 if __name__ == "__main__":
@@ -78,3 +93,6 @@ if __name__ == "__main__":
     hyb = hybrid_search(test_query, k=len(chunk_ids))
     print("Hybrid top 5:", hyb[:5])
     print(f"Hybrid rank of {correct}: {hyb.index(correct) + 1 if correct in hyb else 'not in pool'}")
+    rr = rerank_search(test_query, k=30)
+    print("Rerank top 5:", rr[:5])
+    print(f"Rerank rank of {correct}: {rr.index(correct) + 1 if correct in rr else 'not in pool'}")

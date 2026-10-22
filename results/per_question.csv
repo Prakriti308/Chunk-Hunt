@@ -1,0 +1,137 @@
+question,type,method,rank,hit@5,rr,seconds
+How do I make a file upload not required in FastAPI?,paraphrase,vector,2.0,1,0.5,0.15233510010875762
+How do I make a file upload not required in FastAPI?,paraphrase,bm25,1.0,1,1.0,0.0016547000268474221
+How do I make a file upload not required in FastAPI?,paraphrase,hybrid,1.0,1,1.0,0.031110299983993173
+How do I make a file upload not required in FastAPI?,paraphrase,hybrid+rerank,13.0,0,0.07692307692307693,21.298724199994467
+What does UploadFile mean in FastAPI?,acronym_or_identifier,vector,8.0,0,0.125,0.06710600003134459
+What does UploadFile mean in FastAPI?,acronym_or_identifier,bm25,1.0,1,1.0,0.00240019999910146
+What does UploadFile mean in FastAPI?,acronym_or_identifier,hybrid,2.0,1,0.5,0.05836779996752739
+What does UploadFile mean in FastAPI?,acronym_or_identifier,hybrid+rerank,6.0,0,0.16666666666666666,38.09365379996598
+How can a client send more than one file in a single request?,paraphrase,vector,1.0,1,1.0,0.14897430001292378
+How can a client send more than one file in a single request?,paraphrase,bm25,,0,0.0,0.002291399985551834
+How can a client send more than one file in a single request?,paraphrase,hybrid,19.0,0,0.05263157894736842,0.1399993000086397
+How can a client send more than one file in a single request?,paraphrase,hybrid+rerank,1.0,1,1.0,45.67817099997774
+"What types should I use to declare file uploads in FastAPI — File, bytes, or UploadFile?",exact_term,vector,3.0,1,0.3333333333333333,0.10677860002033412
+"What types should I use to declare file uploads in FastAPI — File, bytes, or UploadFile?",exact_term,bm25,3.0,1,0.3333333333333333,0.007925399928353727
+"What types should I use to declare file uploads in FastAPI — File, bytes, or UploadFile?",exact_term,hybrid,3.0,1,0.3333333333333333,0.1332426000153646
+"What types should I use to declare file uploads in FastAPI — File, bytes, or UploadFile?",exact_term,hybrid+rerank,1.0,1,1.0,18.658095499966294
+What happens if I visit a FastAPI URL without specifying skip or limit in the query string?,paraphrase,vector,1.0,1,1.0,0.03173299995251
+What happens if I visit a FastAPI URL without specifying skip or limit in the query string?,paraphrase,bm25,2.0,1,0.5,0.0029157999670132995
+What happens if I visit a FastAPI URL without specifying skip or limit in the query string?,paraphrase,hybrid,1.0,1,1.0,0.033757500001229346
+What happens if I visit a FastAPI URL without specifying skip or limit in the query string?,paraphrase,hybrid+rerank,2.0,1,0.5,14.7093510000268
+How do I make a query parameter optional in FastAPI?,confusable,vector,1.0,1,1.0,0.0341852999990806
+How do I make a query parameter optional in FastAPI?,confusable,bm25,4.0,1,0.25,0.0019492999417707324
+How do I make a query parameter optional in FastAPI?,confusable,hybrid,1.0,1,1.0,0.02276660001371056
+How do I make a query parameter optional in FastAPI?,confusable,hybrid+rerank,1.0,1,1.0,14.607543400023133
+"If I pass short=yes or short=on in the URL, how does FastAPI interpret it?",exact_term,vector,,0,0.0,0.01766929996665567
+"If I pass short=yes or short=on in the URL, how does FastAPI interpret it?",exact_term,bm25,1.0,1,1.0,0.0014589999336749315
+"If I pass short=yes or short=on in the URL, how does FastAPI interpret it?",exact_term,hybrid,4.0,1,0.25,0.017996600014157593
+"If I pass short=yes or short=on in the URL, how does FastAPI interpret it?",exact_term,hybrid+rerank,3.0,1,0.3333333333333333,14.634752599988133
+What error does FastAPI return if a required query parameter is missing from the request?,conceptual,vector,10.0,0,0.1,0.030194199993275106
+What error does FastAPI return if a required query parameter is missing from the request?,conceptual,bm25,2.0,1,0.5,0.0027803999837487936
+What error does FastAPI return if a required query parameter is missing from the request?,conceptual,hybrid,3.0,1,0.3333333333333333,0.033415299956686795
+What error does FastAPI return if a required query parameter is missing from the request?,conceptual,hybrid+rerank,20.0,0,0.05,14.5480535000097
+What package do I need to install to accept file uploads in FastAPI?,exact_term,vector,8.0,0,0.125,0.03260959999170154
+What package do I need to install to accept file uploads in FastAPI?,exact_term,bm25,,0,0.0,0.002488599973730743
+What package do I need to install to accept file uploads in FastAPI?,exact_term,hybrid,8.0,0,0.125,0.02856540004722774
+What package do I need to install to accept file uploads in FastAPI?,exact_term,hybrid+rerank,24.0,0,0.041666666666666664,14.65305530000478
+What's the difference between declaring a file parameter as bytes versus UploadFile?,conceptual,vector,3.0,1,0.3333333333333333,0.023006599978543818
+What's the difference between declaring a file parameter as bytes versus UploadFile?,conceptual,bm25,3.0,1,0.3333333333333333,0.002190799918025732
+What's the difference between declaring a file parameter as bytes versus UploadFile?,conceptual,hybrid,2.0,1,0.5,0.043448899989016354
+What's the difference between declaring a file parameter as bytes versus UploadFile?,conceptual,hybrid+rerank,3.0,1,0.3333333333333333,29.752907800022513
+Why would a developer declare a return type on a FastAPI endpoint function?,conceptual,vector,1.0,1,1.0,0.05667469999752939
+Why would a developer declare a return type on a FastAPI endpoint function?,conceptual,bm25,6.0,0,0.16666666666666666,0.004829599987715483
+Why would a developer declare a return type on a FastAPI endpoint function?,conceptual,hybrid,2.0,1,0.5,0.06436619989108294
+Why would a developer declare a return type on a FastAPI endpoint function?,conceptual,hybrid+rerank,1.0,1,1.0,20.676852900069207
+How do I return a dictionary from an endpoint but still have it documented and validated as a Pydantic model?,paraphrase,vector,2.0,1,0.5,0.06408389995340258
+How do I return a dictionary from an endpoint but still have it documented and validated as a Pydantic model?,paraphrase,bm25,1.0,1,1.0,0.006567499949596822
+How do I return a dictionary from an endpoint but still have it documented and validated as a Pydantic model?,paraphrase,hybrid,1.0,1,1.0,0.06398159998934716
+How do I return a dictionary from an endpoint but still have it documented and validated as a Pydantic model?,paraphrase,hybrid+rerank,1.0,1,1.0,20.465564299956895
+Why is it risky to use the same Pydantic model for both the request input and response output of a user endpoint?,conceptual,vector,6.0,0,0.16666666666666666,0.062038199976086617
+Why is it risky to use the same Pydantic model for both the request input and response output of a user endpoint?,conceptual,bm25,1.0,1,1.0,0.0066111000487580895
+Why is it risky to use the same Pydantic model for both the request input and response output of a user endpoint?,conceptual,hybrid,2.0,1,0.5,0.03476479998789728
+Why is it risky to use the same Pydantic model for both the request input and response output of a user endpoint?,conceptual,hybrid+rerank,1.0,1,1.0,20.555635099997744
+How can I stop FastAPI from sending a user's password back in the API response?,confusable,vector,5.0,1,0.2,0.0679179000435397
+How can I stop FastAPI from sending a user's password back in the API response?,confusable,bm25,12.0,0,0.08333333333333333,0.005286499974317849
+How can I stop FastAPI from sending a user's password back in the API response?,confusable,hybrid,5.0,1,0.2,0.06356109993066639
+How can I stop FastAPI from sending a user's password back in the API response?,confusable,hybrid+rerank,5.0,1,0.2,20.689262100029737
+What is response_model_exclude_unset used for?,exact_term,vector,2.0,1,0.5,0.03888479992747307
+What is response_model_exclude_unset used for?,exact_term,bm25,7.0,0,0.14285714285714285,0.0008071999764069915
+What is response_model_exclude_unset used for?,exact_term,hybrid,2.0,1,0.5,0.028742399998009205
+What is response_model_exclude_unset used for?,exact_term,hybrid+rerank,2.0,1,0.5,20.143590499996208
+What's the difference between File and Form parameters versus Body parameters in terms of how the request is encoded?,confusable,vector,1.0,1,1.0,0.027220500051043928
+What's the difference between File and Form parameters versus Body parameters in terms of how the request is encoded?,confusable,bm25,1.0,1,1.0,0.004627500078640878
+What's the difference between File and Form parameters versus Body parameters in terms of how the request is encoded?,confusable,hybrid,1.0,1,1.0,0.03892600000835955
+What's the difference between File and Form parameters versus Body parameters in terms of how the request is encoded?,confusable,hybrid+rerank,1.0,1,1.0,20.682593000005
+What do I need to install before I can accept form data in FastAPI?,exact_term,vector,,0,0.0,0.055627500056289136
+What do I need to install before I can accept form data in FastAPI?,exact_term,bm25,2.0,1,0.5,0.00450430007185787
+What do I need to install before I can accept form data in FastAPI?,exact_term,hybrid,10.0,0,0.1,0.05758689995855093
+What do I need to install before I can accept form data in FastAPI?,exact_term,hybrid+rerank,12.0,0,0.08333333333333333,20.16271720000077
+What HTTP status code range should I use for a successful response where there's nothing to send back?,conceptual,vector,1.0,1,1.0,0.027967199916020036
+What HTTP status code range should I use for a successful response where there's nothing to send back?,conceptual,bm25,1.0,1,1.0,0.002558400039561093
+What HTTP status code range should I use for a successful response where there's nothing to send back?,conceptual,hybrid,1.0,1,1.0,0.030471400008536875
+What HTTP status code range should I use for a successful response where there's nothing to send back?,conceptual,hybrid+rerank,1.0,1,1.0,20.210035600000992
+What is fastapi.status used for?,exact_term,vector,5.0,1,0.2,0.02008429996203631
+What is fastapi.status used for?,exact_term,bm25,3.0,1,0.3333333333333333,0.0009619999909773469
+What is fastapi.status used for?,exact_term,hybrid,2.0,1,0.5,0.031119199935346842
+What is fastapi.status used for?,exact_term,hybrid+rerank,2.0,1,0.5,20.445039100013673
+How do I add sample values for a Pydantic model so they show up in the API docs?,paraphrase,vector,1.0,1,1.0,0.055048500071279705
+How do I add sample values for a Pydantic model so they show up in the API docs?,paraphrase,bm25,1.0,1,1.0,0.004896600032225251
+How do I add sample values for a Pydantic model so they show up in the API docs?,paraphrase,hybrid,1.0,1,1.0,0.053967299987562
+How do I add sample values for a Pydantic model so they show up in the API docs?,paraphrase,hybrid+rerank,1.0,1,1.0,19.535833300091326
+What does the openapi_examples parameter do?,exact_term,vector,1.0,1,1.0,0.05923790007364005
+What does the openapi_examples parameter do?,exact_term,bm25,2.0,1,0.5,0.002208199934102595
+What does the openapi_examples parameter do?,exact_term,hybrid,1.0,1,1.0,0.04182010004296899
+What does the openapi_examples parameter do?,exact_term,hybrid+rerank,7.0,0,0.14285714285714285,20.2434012000449
+What format does FastAPI use to let a browser receive a continuous stream of updates from the server using the native EventSource API?,paraphrase,vector,13.0,0,0.07692307692307693,0.04178299999330193
+What format does FastAPI use to let a browser receive a continuous stream of updates from the server using the native EventSource API?,paraphrase,bm25,2.0,1,0.5,0.007698100060224533
+What format does FastAPI use to let a browser receive a continuous stream of updates from the server using the native EventSource API?,paraphrase,hybrid,3.0,1,0.3333333333333333,0.07013569993432611
+What format does FastAPI use to let a browser receive a continuous stream of updates from the server using the native EventSource API?,paraphrase,hybrid+rerank,30.0,0,0.03333333333333333,19.70763259998057
+What is ServerSentEvent used for in FastAPI?,acronym_or_identifier,vector,1.0,1,1.0,0.054783100029453635
+What is ServerSentEvent used for in FastAPI?,acronym_or_identifier,bm25,1.0,1,1.0,0.002961800084449351
+What is ServerSentEvent used for in FastAPI?,acronym_or_identifier,hybrid,1.0,1,1.0,0.056927100056782365
+What is ServerSentEvent used for in FastAPI?,acronym_or_identifier,hybrid+rerank,3.0,1,0.3333333333333333,48.03801100002602
+How do I resume an SSE stream from where a client left off after a connection drops?,conceptual,vector,1.0,1,1.0,0.11813109996728599
+How do I resume an SSE stream from where a client left off after a connection drops?,conceptual,bm25,1.0,1,1.0,0.0026047000428661704
+How do I resume an SSE stream from where a client left off after a connection drops?,conceptual,hybrid,1.0,1,1.0,0.15621879999525845
+How do I resume an SSE stream from where a client left off after a connection drops?,conceptual,hybrid+rerank,1.0,1,1.0,52.19626810005866
+What library does FastAPI recommend for working with SQL databases?,exact_term,vector,1.0,1,1.0,0.13882380002178252
+What library does FastAPI recommend for working with SQL databases?,exact_term,bm25,1.0,1,1.0,0.0020163999870419502
+What library does FastAPI recommend for working with SQL databases?,exact_term,hybrid,1.0,1,1.0,0.10655819997191429
+What library does FastAPI recommend for working with SQL databases?,exact_term,hybrid+rerank,1.0,1,1.0,46.43634849996306
+Why would I create separate HeroPublic and HeroCreate models instead of using one single Hero model for my API?,conceptual,vector,1.0,1,1.0,0.15402280003763735
+Why would I create separate HeroPublic and HeroCreate models instead of using one single Hero model for my API?,conceptual,bm25,1.0,1,1.0,0.002805100055411458
+Why would I create separate HeroPublic and HeroCreate models instead of using one single Hero model for my API?,conceptual,hybrid,1.0,1,1.0,0.2597474999492988
+Why would I create separate HeroPublic and HeroCreate models instead of using one single Hero model for my API?,conceptual,hybrid+rerank,3.0,1,0.3333333333333333,53.595152700087056
+How do I serve a folder of static files like images or CSS from a FastAPI app?,paraphrase,vector,1.0,1,1.0,0.1459867999656126
+How do I serve a folder of static files like images or CSS from a FastAPI app?,paraphrase,bm25,,0,0.0,0.0028222999535501003
+How do I serve a folder of static files like images or CSS from a FastAPI app?,paraphrase,hybrid,20.0,0,0.05,0.15037399996072054
+How do I serve a folder of static files like images or CSS from a FastAPI app?,paraphrase,hybrid+rerank,4.0,1,0.25,54.16807519993745
+What's the difference between streaming JSON Lines and Server-Sent Events?,confusable,vector,3.0,1,0.3333333333333333,0.14585299999453127
+What's the difference between streaming JSON Lines and Server-Sent Events?,confusable,bm25,5.0,1,0.2,0.0019618000369518995
+What's the difference between streaming JSON Lines and Server-Sent Events?,confusable,hybrid,3.0,1,0.3333333333333333,0.13848299998790026
+What's the difference between streaming JSON Lines and Server-Sent Events?,confusable,hybrid+rerank,9.0,0,0.1111111111111111,46.246678100083955
+What library does FastAPI use under the hood to make testing easy with pytest?,paraphrase,vector,1.0,1,1.0,0.2938505000201985
+What library does FastAPI use under the hood to make testing easy with pytest?,paraphrase,bm25,1.0,1,1.0,0.0022443000925704837
+What library does FastAPI use under the hood to make testing easy with pytest?,paraphrase,hybrid,1.0,1,1.0,0.20639399997889996
+What library does FastAPI use under the hood to make testing easy with pytest?,paraphrase,hybrid+rerank,1.0,1,1.0,62.27257369994186
+What is TestClient used for in FastAPI?,acronym_or_identifier,vector,1.0,1,1.0,0.08667850005440414
+What is TestClient used for in FastAPI?,acronym_or_identifier,bm25,1.0,1,1.0,0.001599100069142878
+What is TestClient used for in FastAPI?,acronym_or_identifier,hybrid,1.0,1,1.0,0.14131690002977848
+What is TestClient used for in FastAPI?,acronym_or_identifier,hybrid+rerank,1.0,1,1.0,55.92269910010509
+How do I send form data instead of JSON when writing a test for a FastAPI endpoint?,paraphrase,vector,1.0,1,1.0,0.17184159997850657
+How do I send form data instead of JSON when writing a test for a FastAPI endpoint?,paraphrase,bm25,1.0,1,1.0,0.0030433000065386295
+How do I send form data instead of JSON when writing a test for a FastAPI endpoint?,paraphrase,hybrid,1.0,1,1.0,0.18703290005214512
+How do I send form data instead of JSON when writing a test for a FastAPI endpoint?,paraphrase,hybrid+rerank,1.0,1,1.0,54.38339420000557
+What makes something eligible to be used as a dependency in FastAPI?,conceptual,vector,,0,0.0,0.059794000000692904
+What makes something eligible to be used as a dependency in FastAPI?,conceptual,bm25,1.0,1,1.0,0.002176400041207671
+What makes something eligible to be used as a dependency in FastAPI?,conceptual,hybrid,22.0,0,0.045454545454545456,0.1564858000492677
+What makes something eligible to be used as a dependency in FastAPI?,conceptual,hybrid+rerank,29.0,0,0.034482758620689655,43.625395499984734
+Why would I use a class instead of a function as a FastAPI dependency?,paraphrase,vector,1.0,1,1.0,0.01858959998935461
+Why would I use a class instead of a function as a FastAPI dependency?,paraphrase,bm25,1.0,1,1.0,0.0015508999349549413
+Why would I use a class instead of a function as a FastAPI dependency?,paraphrase,hybrid,1.0,1,1.0,0.028306600055657327
+Why would I use a class instead of a function as a FastAPI dependency?,paraphrase,hybrid+rerank,4.0,1,0.25,63.640635999967344
+What happens when FastAPI calls a class-based dependency like CommonQueryParams?,exact_term,vector,1.0,1,1.0,0.04249430005438626
+What happens when FastAPI calls a class-based dependency like CommonQueryParams?,exact_term,bm25,1.0,1,1.0,0.0021386999869719148
+What happens when FastAPI calls a class-based dependency like CommonQueryParams?,exact_term,hybrid,1.0,1,1.0,0.04441099998075515
+What happens when FastAPI calls a class-based dependency like CommonQueryParams?,exact_term,hybrid+rerank,1.0,1,1.0,24.915958900004625
